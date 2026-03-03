@@ -1,0 +1,51 @@
+{
+  "name": "morse-code-encode-decode",
+  "version": "1.0.0",
+  "description": "Encode and decode Morse code (ITU standard). Zero dependencies. TypeScript-first.",
+  "keywords": ["morse", "morse-code", "encode", "decode", "itu", "typescript"],
+  "author": "MaxGrushevsky",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/morse-code-encode-decode.git"
+  },
+  "homepage": "https://github.com/your-username/morse-code-encode-decode#readme",
+  "bugs": {
+    "url": "https://github.com/your-username/morse-code-encode-decode/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^2.0.0"
+  }
+}
