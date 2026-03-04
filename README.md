@@ -4,7 +4,6 @@
 
 [![npm](https://img.shields.io/npm/v/morse-code-encode-decode)](https://www.npmjs.com/package/morse-code-encode-decode)
 [![license](https://img.shields.io/npm/l/morse-code-encode-decode)](./LICENSE)
-[![build](https://img.shields.io/github/actions/workflow/status/MaxGrushevsky/morse-code-encode-decode/ci.yml)](https://github.com/MaxGrushevsky/morse-code-encode-decode/actions)
 
 ## Features
 
