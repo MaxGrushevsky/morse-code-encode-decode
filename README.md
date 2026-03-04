@@ -13,8 +13,20 @@
 - ITU / international standard codes
 - Written in **TypeScript** — ships with full type declarations
 - **Zero runtime dependencies**
-- Works in Node.js, Deno, Bun, and modern browsers
-- ESM + CommonJS dual build
+- Works in **Node.js**, **browsers** (via bundler), **Deno**, **Bun**
+- **ESM** and **CommonJS** — use `import` or `require()`
+- **TypeScript** — types included (`.d.ts` / `.d.cts`)
+
+## Where it works
+
+| Environment | How |
+|-------------|-----|
+| Node.js (ESM) | `import { encode, decode } from 'morse-code-encode-decode'` |
+| Node.js (CommonJS) | `const { encode, decode } = require('morse-code-encode-decode')` |
+| Bundlers (Vite, Webpack, Rollup, etc.) | Same as Node ESM; tree-shakeable |
+| Browser (no bundler) | Use a CDN that serves ESM (e.g. esm.sh, unpkg with ?module) or bundle in your app |
+| Deno | `import { encode, decode } from 'npm:morse-code-encode-decode'` |
+| Bun | Same as Node (ESM or require) |
 
 ## Install
 
