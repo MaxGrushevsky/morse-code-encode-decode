@@ -4,7 +4,7 @@
 
 [![npm](https://img.shields.io/npm/v/morse-code-encode-decode)](https://www.npmjs.com/package/morse-code-encode-decode)
 [![license](https://img.shields.io/npm/l/morse-code-encode-decode)](./LICENSE)
-[![build](https://img.shields.io/github/actions/workflow/status/your-username/morse-code-encode-decode/ci.yml)](https://github.com/your-username/morse-code-encode-decode/actions)
+[![build](https://img.shields.io/github/actions/workflow/status/MaxGrushevsky/morse-code-encode-decode/ci.yml)](https://github.com/MaxGrushevsky/morse-code-encode-decode/actions)
 
 ## Features
 
@@ -97,7 +97,7 @@ Converts a Morse code string back to plain text (uppercase).
 ## Development
 
 ```bash
-git clone https://github.com/your-username/morse-code-encode-decode.git
+git clone https://github.com/MaxGrushevsky/morse-code-encode-decode.git
 cd morse-code-encode-decode
 npm install
 

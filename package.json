@@ -1,6 +1,6 @@
 {
   "name": "morse-code-encode-decode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Encode and decode Morse code (ITU standard). Zero dependencies. TypeScript-first.",
   "keywords": ["morse", "morse-code", "encode", "decode", "itu", "typescript"],
   "author": "MaxGrushevsky",
@@ -8,11 +8,11 @@
   "engines": { "node": ">=14" },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/morse-code-encode-decode.git"
+    "url": "https://github.com/MaxGrushevsky/morse-code-encode-decode.git"
   },
-  "homepage": "https://github.com/your-username/morse-code-encode-decode#readme",
+  "homepage": "https://github.com/MaxGrushevsky/morse-code-encode-decode#readme",
   "bugs": {
-    "url": "https://github.com/your-username/morse-code-encode-decode/issues"
+    "url": "https://github.com/MaxGrushevsky/morse-code-encode-decode/issues"
   },
   "type": "module",
   "main": "./dist/index.cjs",
